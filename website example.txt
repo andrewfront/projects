@@ -1,0 +1,36 @@
+Website
+1) healthy food
+https://andrewfront.github.io/healthyFoodPublish/
+watch-code: https://github.com/andrewfront/healthyFoodPublish
+2) food shop
+https://andrewfront.github.io/foodshop/
+watch-code: https://github.com/andrewfront/FoodStore
+3) education
+https://andrewfront.github.io/educationpublish/index.html
+watch-code: https://github.com/andrewfront/educationpublish
+4) delivery
+https://andrewfront.github.io/ourfoodsite/
+watch-code: https://github.com/andrewfront/Ourfood
+5) english and music
+http://english-and-music.ru/#
+watch-code: https://github.com/andrewfront/englishandmusic
+6) geekfuel
+https://tranquil-souffle-b5b14b.netlify.app/
+watch-code: https://github.com/andrewfront/geekfuel
+7 yourbag
+https://andrewfront.github.io/yourBagReady/
+watch-code: https://github.com/andrewfront/yourBagReady/blob/main/index.html
+
+React
+1) cocktail app
+https://cocktail-app-project.netlify.app/
+watch-code: https://github.com/andrewfront/cocktails-app
+2) news app
+https://special-news-app-project.netlify.app/
+watch-code: https://github.com/andrewfront/search-app
+3) unsplah-get-photo-app
+https://unsplash-photo-react-app.netlify.app/
+watch-code: https://github.com/andrewfront/get-photos-app
+4) todo-react-app
+https://pet-todo-react-app.netlify.app/
+watch-code: https://github.com/andrewfront/products-app

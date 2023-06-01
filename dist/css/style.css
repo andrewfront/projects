@@ -58,10 +58,10 @@ a {
 html,
 body {
   height: 100%;
-  background: #403B4A; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-gradient(linear, left top, right top, from(#E7E9BB), to(#403B4A));
-  background: -o-linear-gradient(left, #E7E9BB, #403B4A);
-  background: linear-gradient(to right, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #0F2027; /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#2C5364), color-stop(#203A43), to(#0F2027));
+  background: -o-linear-gradient(left, #2C5364, #203A43, #0F2027);
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -98,7 +98,7 @@ body {
   padding-bottom: 20px;
 }
 .projects-subtitle span {
-  color: #000;
+  color: #007bff;
 }
 .projects-inner {
   display: -ms-grid;
@@ -118,7 +118,7 @@ body {
   max-width: 230px;
   gap: 12px;
   padding: 20px;
-  background-color: #d4f5f8;
+  background-color: #ffffff;
   border-radius: 15px;
   border: 1px solid #000;
 }
@@ -130,24 +130,30 @@ body {
 .projects-link {
   padding: 5px;
   border: none;
-  border-radius: 15px;
+}
+.projects .projects-item-list {
+  font-size: 12px;
+  text-align: left;
+}
+.projects .projects-item-info {
+  margin-bottom: 5px;
 }
 .projects .view {
-  background-color: #F9D1D8;
-  color: #E03838;
+  background-color: #007bff;
+  color: #ffffff;
 }
 .projects .view:hover {
-  background-color: #F6BEC8;
+  background-color: #2062a9;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
 }
 .projects .code {
-  background-color: #9CB9D1;
+  background-color: #28a745;
   color: #fff;
 }
 .projects .code:hover {
-  background-color: #8AAFCE;
+  background-color: #0a972a;
   -webkit-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
@@ -168,6 +174,23 @@ body {
   }
   .projects-subtitle {
     font-size: 18px;
+  }
+}
+@media (max-width: 486px) {
+  .projects-inner {
+    -ms-grid-columns: (1fr)[1];
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .projects-item {
+    max-width: 100%;
+    width: 100%;
+    padding: 15px;
+  }
+  .projects-img {
+    margin: 0 auto;
+  }
+  .projects-title {
+    font-size: 26px;
   }
 }
 @media (max-width: 430px) {
